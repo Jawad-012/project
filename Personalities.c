@@ -943,7 +943,7 @@ void Bilawal(char ch,int count)
 						break;
 					}
 				default: // bilawal bhutto Q3
-					Altaf(ch , count);
+					//Altaf(ch , count);
 					break;
 			}
 			default:// bilawal bhutto Q2
@@ -1084,22 +1084,22 @@ void firdous(char ch , int count)
 							}
 							
 						default: // firdous ashiq Q3
-							printf("\n\tQuestion no %d\n",count);
-							printf("Is your character alive?     \n");
-							printf("\t Option: ");    // firdous ashiq Q7
-							scanf(" %c", &ch);
-							count++;
-							switch(ch) {
-								case 'Y':
-								case 'y':
-								case 'D':
-								case 'd':
-								maryam( ch, count);
-								default:
-									Benazir(ch , count);
-									break;	
-							}
-							break;
+							// printf("\n\tQuestion no %d\n",count);
+							// printf("Is your character alive?     \n");
+							// printf("\t Option: ");    // firdous ashiq Q7
+							// scanf(" %c", &ch);
+							// count++;
+							// switch(ch) {
+							// 	case 'Y':
+							// 	case 'y':
+							// 	case 'D':
+							// 	case 'd':
+							// 	maryam( ch, count);
+							// 	default:
+							// 		Benazir(ch , count);
+							// 		break;	
+							// }
+							// break;
 						}
 						
 					default: // firdous ashiq Q2
@@ -1724,7 +1724,7 @@ void sheikh_rasheed(char ch,int count)
             break;
             }                                        
         default: // sheikh rasheed Q3
-        	imran_khan (ch , count);
+        //	imran_khan (ch , count);
         break;
         }
     default: // sheikh rasheed Q2

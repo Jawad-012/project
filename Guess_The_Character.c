@@ -188,6 +188,8 @@ void Start_the_Game() {
 																																		        case 'y': // Nawaz Sharif Q15
 																																                case 'D':
 																																                case 'd':
+																																				case "N":
+																																				case "n":
 																																		        	printf("\n\tQuestion no %d",count);
 																																		            printf("\nIs your character from GO NAWAZ GO era?\n");
 																																		            printf("\t Option: ");
@@ -200,7 +202,8 @@ void Start_the_Game() {
 																																						case 'd':
 																																		                	printf("\nYour character is the one and only nawaz shariff!\n");
 																																		                	printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
-																						            														}
+																						            														break;
+																																							}
 																																				default: // Nawaz Sharif Q15
 																																					break;  	
 																															                }		  	
@@ -285,7 +288,7 @@ int main() {
 	Title3 ();
 	Disclaimer;
 	Rules ();
-	//PlaySound(TEXT("C:\\Users\\HAROON TRADERS\\Documents\\practice\\akinator_theme.wav"),NULL,SND_ASYNC);
+	PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Desktop\\project_repo\\project\\akinator_theme.wav"),NULL,SND_ASYNC);
 	
     Start_the_Game();
     return 0;
