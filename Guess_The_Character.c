@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include <Windows.h>
+#include <mmsystem.h>
+#include <stdio.h>
 #include "Title.c"
-#include "Personality.c"
+#include "Personalities.c"
 
 void Start_the_Game() {
 	int count = 1;
@@ -12,7 +15,6 @@ void Start_the_Game() {
     
     // Read the user's input
     scanf(" %c", &ch);
-
     switch(ch) {
         case 'Y':
         case 'y':
@@ -283,6 +285,8 @@ int main() {
 	Title3 ();
 	Disclaimer;
 	Rules ();
+	PlaySound(TEXT("C:\\Users\\HAROON TRADERS\\Documents\\practice\\akinator_theme.wav"),NULL,SND_ASYNC);
+	
     Start_the_Game();
     return 0;
 }
