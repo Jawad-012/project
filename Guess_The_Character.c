@@ -285,7 +285,7 @@ int main() {
 	Title3 ();
 	Disclaimer;
 	Rules ();
-	PlaySound(TEXT("C:\\Users\\HAROON TRADERS\\Documents\\practice\\akinator_theme.wav"),NULL,SND_ASYNC);
+	//PlaySound(TEXT("C:\\Users\\HAROON TRADERS\\Documents\\practice\\akinator_theme.wav"),NULL,SND_ASYNC);
 	
     Start_the_Game();
     return 0;
