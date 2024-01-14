@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 void nawaz_sharif(int ch,int count)
 {
@@ -168,6 +169,7 @@ void nawaz_sharif(int ch,int count)
 																														case 'd':
 																															printf("\nYour character is the one and only nawaz shariff!\n");
 																															printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																															exit(0);
 																														}
 																													default: // Nawaz Sharif Q15
 																														break;
@@ -212,6 +214,7 @@ void nawaz_sharif(int ch,int count)
 						break;
 					}
 					// Nawaz Sharif Q1
+					exit(0);
 }
 void maryam(char ch,int count)
 {
@@ -357,7 +360,8 @@ void maryam(char ch,int count)
                                                                                                                 case 'd': 
                                                                                                                     printf("You are thinking about maryam nawaz!\n"); 
                                                                                                                     printf("\n\tye bhool hain gulaab k koi asla to nhi\n\tPF mai backlog lage koi masla to nhi \n"); 
-                                                                                                            }                                        
+																													exit(0);
+																										    }                                        
                                                                                                         default: // maryam nawaz Q14
                                                                                                         break;
                                                                                                     }                                        
@@ -397,6 +401,7 @@ void maryam(char ch,int count)
         default: // maryam nawaz Q2
         break;
     }
+	exit(0);
 }
 void Altaf(char ch , int count)
 {
@@ -407,6 +412,8 @@ void Altaf(char ch , int count)
 			count++;
 			switch (ch)
 			{
+			case 'Y':
+			case 'y':
 			case 'N':
 			case 'n':
 			case 'D':
@@ -568,6 +575,7 @@ void Altaf(char ch , int count)
 															case 'n':
 																printf("\nYour character is Altaf Hussain!\n");
 																printf("\nVote for Miss Samia Masood Awan  \nWarnaa bori tayyaar");
+																exit(0);
 															}
 														default:
 															break; // Q13
@@ -605,6 +613,7 @@ void Altaf(char ch , int count)
 			default: //Q2
 				break;
 			}
+			exit(0);
 }
 void Benazir(char ch,int count)
 {
@@ -709,6 +718,7 @@ void Benazir(char ch,int count)
 																			case 'D':
 																			case 'd':	
 																				printf("\nYour character is the 1st women PM of Pakistan Benzair Bhutto!\n");
+																				exit(0);
 																		}
 																	default: // benazir bhutto Q10
 																		break;						
@@ -737,6 +747,7 @@ void Benazir(char ch,int count)
 		default: // benazir Q2
 			break;
 	}	
+	exit(0);
 }//function end
 void Bilawal(char ch,int count)
 {
@@ -902,6 +913,7 @@ void Bilawal(char ch,int count)
 																															case 'd':
 																																printf("\nYour character is Bilawal Bhutto!\n");
 																																printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai");
+																																exit(0);
 																														}
 																													default://bilawal bhutto Q16
 																														break;
@@ -949,6 +961,7 @@ void Bilawal(char ch,int count)
 			default:// bilawal bhutto Q2
 				break;
 		}
+		exit(0);
 }
 void firdous(char ch , int count)
 {
@@ -1105,6 +1118,7 @@ void firdous(char ch , int count)
 					default: // firdous ashiq Q2
 						break; 
 					}
+					exit(0);
 }
 void imran_khan(char ch,int count)
 {
@@ -1271,7 +1285,8 @@ void imran_khan(char ch,int count)
                                                                 case 'D':
                                                                 case 'd':
                                                                     printf("You are thinking about imran khan!\n");                                        
-                                                                    printf("\n\tHame to pf ne loota\n\tfit mai kahan dam tha\n\tGPA bhi wahan giri\n\tjahan AP mai number kam thay\n");                                        
+                                                                    printf("\n\tHame to pf ne loota\n\tfit mai kahan dam tha\n\tGPA bhi wahan giri\n\tjahan AP mai number kam thay\n"); 
+																	exit(0);                                       
                                                                 default:
                                                                 break;
                                                                 }                                        
@@ -1319,6 +1334,7 @@ void imran_khan(char ch,int count)
         }
     default: // imran khan Q2
     break;
+	exit(0);
     }
 }//imran khan End
 void shahbaz(char ch , int count)
@@ -1330,6 +1346,9 @@ void shahbaz(char ch , int count)
 			count++;
 			switch (ch)
 			{
+			
+			case 'N':
+			case 'N':
 			case 'N':
 			case 'n':
 			case 'D':
@@ -1512,6 +1531,7 @@ void shahbaz(char ch , int count)
 																	case 'd':
 																		printf("\nYour character is Shahbaz Sharif!\n");
 																		printf("\n Mei Programming Prhne nhi aya \nlekin CS k lye Majboori hei\n");
+																		exit(0);
 																	}
 																default:
 																	break;
@@ -1555,6 +1575,7 @@ void shahbaz(char ch , int count)
 			default: // Q02
 				break;
 			}
+			exit(0);
 }// shahbaz End
 void sheikh_rasheed(char ch,int count)
 {
@@ -1689,7 +1710,8 @@ void sheikh_rasheed(char ch,int count)
                                                     case 'D':
                                                     case 'd':
                                                         printf("\nYou are thinking about sheikh rasheed\n");
-                                                        printf("\n\tSheikhu Didnt choose thug life ,\n\t thug life choose him");                                        
+                                                        printf("\n\tSheikhu Didnt choose thug life ,\n\t thug life choose him");
+														exit(0);                                        
                                                     default:
                                                     break;
                                                     }                                        
@@ -1730,4 +1752,5 @@ void sheikh_rasheed(char ch,int count)
     default: // sheikh rasheed Q2
     break;
     }
+	exit(0);
 }// shiekh rasheed End

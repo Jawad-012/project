@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <Windows.h>
 #include <mmsystem.h>
 #include <stdio.h>
@@ -202,6 +203,7 @@ void Start_the_Game() {
 																																						case 'd':
 																																		                	printf("\nYour character is the one and only nawaz shariff!\n");
 																																		                	printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																																							exit(0);
 																						            														break;
 																																							}
 																																				default: // Nawaz Sharif Q15
@@ -279,6 +281,7 @@ void Start_the_Game() {
             // ...
             break;
     }
+	exit(0);
 }
 
 int main() {
@@ -288,8 +291,7 @@ int main() {
 	Title3 ();
 	Disclaimer;
 	Rules ();
-	PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Desktop\\project_repo\\project\\akinator_theme.wav"),NULL,SND_ASYNC);
-	
+	PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\akinator_theme.wav"),NULL,SND_ASYNC);
     Start_the_Game();
     return 0;
 }
