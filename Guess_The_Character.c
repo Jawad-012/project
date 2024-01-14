@@ -4,7 +4,7 @@
 #include <mmsystem.h>
 #include <stdio.h>
 #include "Title.c"
-#include "Personalities.c"
+#include "Personality.c"
 
 void Start_the_Game() {
 	int count = 1;
@@ -202,8 +202,9 @@ void Start_the_Game() {
 																																					    case 'D':
 																																						case 'd':
 																																		                	printf("\nYour character is the one and only nawaz shariff!\n");
-																																		                	printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
-																																							PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\nawaz.wav"),NULL,SND_ASYNC);
+																																		                	printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu\n");
+																																							PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\nawaz.wav"),NULL,SND_ASYNC);
+																																							system("pause");
 																																							exit(0);
 																						            														break;
 																																							}
@@ -290,9 +291,10 @@ int main() {
 	Title ();
 	Title2 ();
 	Title3 ();
+	border();
 	Disclaimer;
 	Rules ();
-	PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\akinator_theme.wav"),NULL,SND_ASYNC);
+	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"),NULL,SND_ASYNC);
     Start_the_Game();
     return 0;
 }
