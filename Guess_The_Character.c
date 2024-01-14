@@ -203,6 +203,7 @@ void Start_the_Game() {
 																																						case 'd':
 																																		                	printf("\nYour character is the one and only nawaz shariff!\n");
 																																		                	printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																																							PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\nawaz.wav"),NULL,SND_ASYNC);
 																																							exit(0);
 																						            														break;
 																																							}
