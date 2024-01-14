@@ -189,8 +189,8 @@ void Start_the_Game() {
 																																		        case 'y': // Nawaz Sharif Q15
 																																                case 'D':
 																																                case 'd':
-																																				case "N":
-																																				case "n":
+																																				case 'N':
+																																				case 'n':
 																																		        	printf("\n\tQuestion no %d",count);
 																																		            printf("\nIs your character from GO NAWAZ GO era?\n");
 																																		            printf("\t Option: ");

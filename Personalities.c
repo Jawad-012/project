@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void nawaz_sharif(int ch,int count)
+void nawaz_sharif(char ch,int count)
 {
 	printf("\nIs your character over 50 years?\n");
 	printf("\t Option: ");
