@@ -12,12 +12,300 @@ void Bilawal(char ch, int count);
 void Altaf(char ch, int count);
 void Benazir(char ch, int count);
 void firdous(char ch, int count);
+void nawaz(char ch, int count);
+
+void nawaz(char ch, int count)
+{
+	printf("\n\t\t\t\tQuestion no %d", count);
+	printf("\n\t\t\tIs your character over 50 years?\n");
+	printf("\t\t\t\t Option: ");
+	scanf(" %c", &ch);
+	count++;
+	switch (ch)
+	{
+	case 'Y':
+	case 'y': // Nawaz Sharif Q1
+	case 'D':
+	case 'd':
+		printf("\n\t\t\t\tQuestion no %d", count);
+		printf("\n\t\t\tDoes your character belongs from Punjab?\n");
+		printf("\t\t\t\t Option: ");
+		scanf(" %c", &ch);
+		count++;
+		switch (ch)
+		{
+		case 'Y':
+		case 'y':
+		case 'D':
+		case 'd': // Nawaz Sharif Q2
+			printf("\n\t\t\t\tQuestion no %d", count);
+			printf("\n\t\t\tDoes your character have famous  brother?\n");
+			printf("\t\t\t\t Option: ");
+			scanf(" %c", &ch);
+			count++;
+			switch (ch)
+			{
+			case 'Y':
+			case 'y':
+			case 'D':
+			case 'd': // Nawaz Sharif Q3
+				printf("\n\t\t\t\tQuestion no %d", count);
+				printf("\n\t\t\tDoes your character have famous Daughter?\n");
+				printf("\t\t\t\t Option: ");
+				scanf(" %c", &ch);
+				count++;
+				switch (ch)
+				{
+				case 'Y':
+				case 'y':
+					// Nawaz Sharif Q4
+					printf("\n\t\t\t\tQuestion no %d", count);
+					printf("\n\t\t\tDoes your character's Daughter politician?\n");
+					printf("\t\t\t\t Option: ");
+					scanf(" %c", &ch);
+					count++;
+					switch (ch)
+					{
+					case 'Y':
+					case 'y': // Nawaz Sharif Q5
+
+						printf("\n\t\t\t\tQuestion no %d", count);
+						printf("\n\t\t\tDoes your character introduced Projects?\n");
+						printf("\t\t\t\t Option: ");
+						scanf(" %c", &ch);
+						count++;
+						switch (ch)
+						{
+						case 'Y':
+						case 'y': // Nawaz Sharif Q6
+						case 'D':
+						case 'd':
+							printf("\n\t\t\t\tQuestion no %d", count);
+							printf("\n\t\t\tDid your character got hit with a shoe?\n");
+							printf("\t\t\t\t Option: ");
+							scanf(" %c", &ch);
+							count++;
+							switch (ch)
+							{
+							case 'Y':
+							case 'y':
+							case 'D':
+							case 'd': // Nawaz Sharif Q7
+								printf("\n\t\t\t\tQuestion no %d", count);
+								printf("\n\t\t\tDid your character become PM more than 1 times?\n");
+								printf("\t\t\t\t Option: ");
+								scanf(" %c", &ch);
+								count++;
+								switch (ch)
+								{
+								case 'Y':
+								case 'y':
+								case 'D':
+								case 'd': // Nawaz Sharif Q8
+									printf("\n\t\t\t\tQuestion no %d", count);
+									printf("\n\t\t\tIs your character half bald?\n");
+									printf("\t\t\t\t Option: ");
+									scanf(" %c", &ch);
+									count++;
+									switch (ch)
+									{
+									case 'Y':
+									case 'y':
+									case 'D':
+									case 'd': // Nawaz Sharif Q9
+										printf("\n\t\t\t\tQuestion no %d", count);
+										printf("\n\t\t\tDoes he have a palace?\n");
+										printf("\t\t\t\t Option: ");
+										scanf(" %c", &ch);
+										count++;
+										switch (ch)
+										{
+										case 'Y':
+										case 'y': // Nawaz Sharif Q10
+										case 'D':
+										case 'd':
+										case 'n':
+										case 'N':
+											printf("\n\t\t\t\tQuestion no %d", count);
+											printf("\n\t\t\tDoes your character look like Bhalu?\n");
+											printf("\t\t\t\t Option: ");
+											scanf(" %c", &ch);
+											count++;
+											switch (ch)
+											{
+											case 'Y':
+											case 'y': // Nawaz Sharif Q11
+											case 'D':
+											case 'd':
+											case 'n':
+											case 'N':
+												printf("\n\t\t\t\tQuestion no %d", count);
+												printf("\n\t\t\tYour character got jailed?\n");
+												printf("\t\t\t\t Option: ");
+												scanf(" %c", &ch);
+												count++;
+												switch (ch)
+												{
+												case 'Y':
+												case 'y':
+												case 'D':
+												case 'd': // Nawaz Sharif Q12
+													printf("\n\t\t\t\tQuestion no %d", count);
+													printf("\n\t\t\tDoes your character went for the medical abroad?\n");
+													printf("\t\t\t\t Option: ");
+													scanf(" %c", &ch);
+													count++;
+													switch (ch)
+													{
+													case 'Y':
+													case 'y':
+													case 'D':
+													case 'd': // Nawaz Sharif Q13
+														printf("\n\t\t\t\tQuestion no %d", count);
+														printf("\n\t\t\tDid your character ran from the country?\n");
+														printf("\t\t\t\t Option: ");
+														scanf(" %c", &ch);
+														count++;
+														switch (ch)
+														{
+														case 'Y':
+														case 'y':
+														case 'D':
+														case 'd': // Nawaz Sharif Q14
+															printf("\n\t\t\t\tQuestion no %d", count);
+															printf("\n\t\t\tIs your character's wife alive?\n");
+															printf("\t\t\t\t Option: ");
+															scanf(" %c", &ch);
+															count++;
+															switch (ch)
+															{
+															case 'Y':
+															case 'y': // Nawaz Sharif Q15
+															case 'D':
+															case 'd':
+															case 'n':
+															case 'N':
+																printf("\n\t\t\t\tQuestion no %d", count);
+																printf("\n\t\t\tIs your character from GO NAWAZ GO era?\n");
+																printf("\t\t\t\t Option: ");
+																scanf(" %c", &ch);
+																count++;
+																switch (ch)
+																{
+																case 'Y':
+																case 'y':
+																case 'D':
+																case 'd':
+																	printf("\n\t\t\t\tYour character is the one and only nawaz shariff!\n");
+																	printf("\n\t\t\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																	PlaySound(TEXT("nawaz.wav"), NULL, SND_ASYNC);
+																	system("pause");
+																	exit(0);
+																}
+															default: // Nawaz Sharif Q15
+																nawaz(ch, count);
+
+																break;
+															}
+														default: // Nawaz Sharif Q14
+															nawaz(ch, count);
+
+															break;
+														}
+													default: // Nawaz Sharif Q13
+														nawaz(ch, count);
+
+														break;
+													}
+												default: // Nawaz Sharif Q12
+													nawaz(ch, count);
+
+													break;
+												}
+											default: // Nawaz Sharif Q11
+												nawaz(ch, count);
+
+												break;
+											}
+										default: // Nawaz Sharif Q10
+											nawaz(ch, count);
+
+											break;
+										}
+									default: // Nawaz Sharif Q9
+										Altaf(ch, count);
+										sheikh_rasheed(ch, count);
+										imran_khan(ch, count);
+										shahbaz(ch, count);
+										nawaz(ch, count);
+
+										break;
+									}
+								default: // Nawaz Sharif Q8
+									nawaz(ch, count);
+									break;
+								}
+							default: // Nawaz Sharif Q7
+								nawaz(ch, count);
+
+								break;
+							}
+						default: // Nawaz Sharif Q6
+							nawaz(ch, count);
+
+							break;
+						}
+					default: // Nawaz Sharif Q5
+						shahbaz(ch, count);
+						Altaf(ch, count);
+						sheikh_rasheed(ch, count);
+						imran_khan(ch, count);
+						nawaz(ch, count);
+
+						break;
+					}
+				default: // Nawaz Sharif Q4
+					shahbaz(ch, count);
+					Altaf(ch, count);
+					sheikh_rasheed(ch, count);
+					imran_khan(ch, count);
+					nawaz(ch, count);
+					break;
+				}
+			default: // Nawaz Sharif Q3
+				Altaf(ch, count);
+				sheikh_rasheed(ch, count);
+				imran_khan(ch, count);
+
+				nawaz(ch, count);
+
+				break;
+			}
+		default: // Nawaz Sharif Q2
+			Altaf(ch, count);
+
+			sheikh_rasheed(ch, count);
+			imran_khan(ch, count);
+
+			shahbaz(ch, count);
+			nawaz(ch, count);
+
+			break;
+		}
+		// Nawaz Sharif Q1
+	default:
+		Bilawal(ch, count);
+		nawaz(ch, count);
+
+		break;
+	}
+}
 
 void maryam(char ch, int count)
 {
-	printf("\n\tQuestion no %d\n", count); // maryam nawaz Q1
-	printf("Is ur character over 40 years?\n");
-	printf("\t Option: ");
+	printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q1
+	printf("\t\t\tIs ur character over 40 years?\n");
+	printf("\t\t\t\t Option: ");
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -26,9 +314,9 @@ void maryam(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d\n", count); // maryam nawaz Q2
-		printf("Does ur character look young?\n");
-		printf("\t Option: ");
+		printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q2
+		printf("\t\t\tDoes ur character look young?\n");
+		printf("\t\t\t\t Option: ");
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
@@ -37,9 +325,9 @@ void maryam(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d\n", count); // maryam nawaz Q3
-			printf("Is ur character married?\n");
-			printf("\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q3
+			printf("\t\t\tIs ur character married?\n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -48,9 +336,9 @@ void maryam(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
-				printf("\n\tQuestion no %d\n", count); // maryam nawaz Q4
-				printf("Does ur character have 4 kids?\n");
-				printf("\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q4
+				printf("\t\t\tDoes ur character have 4 kids?\n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -59,9 +347,9 @@ void maryam(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
-					printf("\n\tQuestion no %d\n", count); // maryam nawaz Q5
-					printf("Does ur character have someone who is in politics?\n");
-					printf("\t Option: ");
+					printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q5
+					printf("\t\t\tDoes ur character have someone who is in politics?\n");
+					printf("\t\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -70,9 +358,9 @@ void maryam(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
-						printf("\n\tQuestion no %d\n", count); // maryam nawaz Q6
-						printf("Is she the chair person of prime minsiters youth program?\n");
-						printf("\t Option: ");
+						printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q6
+						printf("\t\t\tIs she the chair person of prime minsiters youth program?\n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -81,9 +369,9 @@ void maryam(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
-							printf("\n\tQuestion no %d\n", count); // maryam nawaz Q7
-							printf("Is she is known as the nani of other politicians?\n");
-							printf("\t Option: ");
+							printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q7
+							printf("\t\t\tIs she is known as the nani of other politicians?\n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -92,9 +380,9 @@ void maryam(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
-								printf("\n\tQuestion no %d\n", count); // maryam nawaz Q8
-								printf("Did her degree was critized by someone and challenged in court?\n");
-								printf("\t Option: ");
+								printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q8
+								printf("\t\t\tDid her degree was critized by someone and challenged in court?\n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -103,9 +391,9 @@ void maryam(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
-									printf("\n\tQuestion no %d\n", count); // maryam nawaz Q9
-									printf("Do she wears tons of makeup?\n");
-									printf("\t Option: ");
+									printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q9
+									printf("\t\t\tDo she wears tons of makeup?\n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -114,9 +402,9 @@ void maryam(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d\n", count); // maryam nawaz Q10
-										printf("Did she contributed to betterment of country?\n");
-										printf("\t Option: ");
+										printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q10
+										printf("\t\t\tDid she contributed to betterment of country?\n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -125,9 +413,9 @@ void maryam(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
-											printf("\n\tQuestion no %d\n", count); // maryam nawaz Q11
-											printf("Does she always target other politicians in her speech?\n");
-											printf("\t Option: ");
+											printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q11
+											printf("\t\t\tDoes she always target other politicians in her speech?\n");
+											printf("\t\t\t\t Option: ");
 											scanf(" %c", &ch);
 											count++;
 											switch (ch)
@@ -136,9 +424,9 @@ void maryam(char ch, int count)
 											case 'y':
 											case 'D':
 											case 'd':
-												printf("\n\tQuestion no %d\n", count); // maryam nawaz Q12
-												printf("does she wear glasses?\n");
-												printf("\t Option: ");
+												printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q12
+												printf("\t\t\tDoes she wear glasses?\n");
+												printf("\t\t\t\t Option: ");
 												scanf(" %c", &ch);
 												count++;
 												switch (ch)
@@ -147,9 +435,9 @@ void maryam(char ch, int count)
 												case 'y':
 												case 'D':
 												case 'd':
-													printf("\n\tQuestion no %d\n", count); // maryam nawaz Q13
-													printf("Does she play the role of Phuppo in politics?\n");
-													printf("\t Option: ");
+													printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q13
+													printf("\t\t\tDoes she play the role of Phuppo in politics?\n");
+													printf("\t\t\t\t Option: ");
 													scanf(" %c", &ch);
 													count++;
 													switch (ch)
@@ -158,9 +446,9 @@ void maryam(char ch, int count)
 													case 'y':
 													case 'D':
 													case 'd':
-														printf("\n\tQuestion no %d\n", count); // maryam nawaz Q14
-														printf("is she a role model for many people?\n");
-														printf("\t Option: ");
+														printf("\n\t\t\t\tQuestion no %d\n", count); // maryam nawaz Q14
+														printf("\t\t\tIs she a role model for many people?\n");
+														printf("\t\t\t\t Option: ");
 														scanf(" %c", &ch);
 														count++;
 														switch (ch)
@@ -169,97 +457,83 @@ void maryam(char ch, int count)
 														case 'y':
 														case 'D':
 														case 'd':
-															printf("You are thinking about maryam nawaz!\n");
-															printf("\n\tye bhool hain gulaab k koi asla to nhi\n\tPF mai backlog lage koi masla to nhi \n");
-															PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\Maryam.wav"), NULL, SND_ASYNC);
+															printf("\t\t\t\tYou are thinking about maryam nawaz!\n");
+															printf("\n\t\t\tYe bhool hain gulaab k koi asla to nhi\n\t\t\tPF mai backlog lage koi masla to nhi \n");
+															PlaySound(TEXT("Maryam.wav"), NULL, SND_ASYNC);
 															system("pause");
 															exit(0);
 														}
 													default: // maryam nawaz Q14
-														firdous(ch, count);
-														Benazir(ch, count);
 														maryam(ch, count);
+														firdous(ch, count);
 														break;
 													}
 												default: // maryam nawaz Q13
-													firdous(ch, count);
-													Benazir(ch, count);
 													maryam(ch, count);
+													firdous(ch, count);
 													break;
 												}
 											default: // maryam nawaz Q12
-												firdous(ch, count);
-												Benazir(ch, count);
 												maryam(ch, count);
+												firdous(ch, count);
 												break;
 											}
 										default: // maryam nawaz Q11
-											firdous(ch, count);
-											Benazir(ch, count);
 											maryam(ch, count);
+											firdous(ch, count);
 											break;
 										}
 									default: // maryam nawaz Q10
-										firdous(ch, count);
-
-										Benazir(ch, count);
 										maryam(ch, count);
+										firdous(ch, count);
 										break;
 									}
 								default: // maryam nawaz Q9
-									firdous(ch, count);
-									Benazir(ch, count);
 									maryam(ch, count);
+									firdous(ch, count);
 									break;
 								}
 							default: // maryam nawaz Q8
-								firdous(ch, count);
-								Benazir(ch, count);
 								maryam(ch, count);
+								firdous(ch, count);
 								break;
 							}
 						default: // maryam nawaz Q7
-							firdous(ch, count);
-							Benazir(ch, count);
 							maryam(ch, count);
+							firdous(ch, count);
 							break;
 						}
 					default: // maryam nawaz Q6
-						firdous(ch, count);
-						Benazir(ch, count);
 						maryam(ch, count);
+						firdous(ch, count);
 						break;
 					}
 				default: // maryam nawaz Q5
-					firdous(ch, count);
-					Benazir(ch, count);
 					maryam(ch, count);
+					firdous(ch, count);
 					break;
 				}
 			default: // maryam nawaz Q4
-				firdous(ch, count);
-				Benazir(ch, count);
 				maryam(ch, count);
+				firdous(ch, count);
 				break;
 			}
 		default: // maryam nawaz Q3
-			firdous(ch, count);
-			Benazir(ch, count);
 			maryam(ch, count);
+			firdous(ch, count);
 			break;
 		}
 	default: // maryam nawaz Q2
-		firdous(ch, count);
-		Benazir(ch, count);
 		maryam(ch, count);
+		firdous(ch, count);
 		break;
 	}
 }
 void Altaf(char ch, int count)
 {
-	printf("\n\tQuestion no %d", count);
-	printf("\nIs he currently in Pakistan?  \n"); // Altaf Q1
-	printf("\t Option: ");
+	printf("\n\t\t\t\tQuestion no %d", count);
+	printf("\n\t\t\tIs he currently in Pakistan?  \n"); // Altaf Q1
+	printf("\t\t\t\t Option: ");
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -268,9 +542,9 @@ void Altaf(char ch, int count)
 	case 'n':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d", count); // Altaf Q2
-		printf("\nDoes he have moustache?  \n");
-		printf("\t Option: ");
+		printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q2
+		printf("\n\t\t\tDoes he have moustache?  \n");
+		printf("\t\t\t\t Option: ");
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
@@ -279,9 +553,9 @@ void Altaf(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d", count); // Altaf Q3
-			printf("\nDoes he wear shawll?   \n");
-			printf("\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q3
+			printf("\n\t\t\tDoes he wear shawll?   \n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -292,9 +566,9 @@ void Altaf(char ch, int count)
 			case 'd':
 			case 'N':
 			case 'n':
-				printf("\n\tQuestion no %d", count); // Altaf Q4
-				printf("\nDoes he started a league of rights?   \n");
-				printf("\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q4
+				printf("\n\t\t\tDoes he started a league of rights?   \n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -305,9 +579,9 @@ void Altaf(char ch, int count)
 				case 'd':
 				case 'N':
 				case 'n':
-					printf("\n\tQuestion no %d", count); // Altaf Q5
-					printf("\nDoes he talks like gargel??   \n");
-					printf("\t Option: ");
+					printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q5
+					printf("\n\t\t\tDoes he talks like gargel??   \n");
+					printf("\t\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -318,9 +592,9 @@ void Altaf(char ch, int count)
 					case 'd':
 					case 'N':
 					case 'n':
-						printf("\n\tQuestion no %d", count); // Altaf Q6
-						printf("\nDoes he studied from KU?   \n");
-						printf("\t Option: ");
+						printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q6
+						printf("\n\t\t\tDoes he studied from KU?   \n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -331,9 +605,9 @@ void Altaf(char ch, int count)
 						case 'd':
 						case 'N':
 						case 'n':
-							printf("\n\tQuestion no %d", count); // Altaf Q7
-							printf("\nIs your character savage?   \n");
-							printf("\t Option: ");
+							printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q7
+							printf("\n\t\t\tIs your character savage?   \n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -344,9 +618,9 @@ void Altaf(char ch, int count)
 							case 'd':
 							case 'N':
 							case 'n':
-								printf("\n\tQuestion no %d", count); // Altaf Q8
-								printf("\nIs his wife alive?   \n");
-								printf("\t Option: ");
+								printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q8
+								printf("\n\t\t\tIs his wife alive?   \n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -357,9 +631,9 @@ void Altaf(char ch, int count)
 								case 'd':
 								case 'N':
 								case 'n':
-									printf("\n\tQuestion no %d", count); // Altaf Q9
-									printf("\nWear sun glasses?    \n");
-									printf("\t Option: ");
+									printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q9
+									printf("\n\t\t\tWear sun glasses?    \n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -368,9 +642,9 @@ void Altaf(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d", count); // Altaf Q10
-										printf("\nIs there a university by his father name?    \n");
-										printf("\t Option: ");
+										printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q10
+										printf("\n\t\t\tIs there a university by his father name?    \n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -381,9 +655,9 @@ void Altaf(char ch, int count)
 										case 'd':
 										case 'N':
 										case 'n':
-											printf("\n\tQuestion no %d", count); // Altaf Q11
-											printf("\nDoes he need two chair to sit?    \n");
-											printf("\t Option: ");
+											printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q11
+											printf("\n\t\t\tDoes he need two chair to sit?    \n");
+											printf("\t\t\t\t Option: ");
 											scanf(" %c", &ch);
 											count++;
 											switch (ch)
@@ -394,9 +668,9 @@ void Altaf(char ch, int count)
 											case 'd':
 											case 'N':
 											case 'n':
-												printf("\n\tQuestion no %d", count); // Altaf Q12
-												printf("\nIs your charachter from a kahata pita gharana?    \n");
-												printf("\t Option: ");
+												printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q12
+												printf("\n\t\t\tIs your charachter from a kahata pita gharana?    \n");
+												printf("\t\t\t\t Option: ");
 												scanf(" %c", &ch);
 												count++;
 												switch (ch)
@@ -407,9 +681,9 @@ void Altaf(char ch, int count)
 												case 'd':
 												case 'N':
 												case 'n':
-													printf("\n\tQuestion no %d", count); // Altaf Q13
-													printf("\nIs his call is enough for breakdown?     \n");
-													printf("\t Option: ");
+													printf("\n\t\t\t\tQuestion no %d", count); // Altaf Q13
+													printf("\n\t\t\tIs his call is enough for breakdown?     \n");
+													printf("\t\t\t\t Option: ");
 													scanf(" %c", &ch);
 													count++;
 													switch (ch)
@@ -417,120 +691,74 @@ void Altaf(char ch, int count)
 													case 'N':
 													case 'n':
 													{
-														printf("\n Sach Batao! \n\t 1 bonus marks idhar \n \t 1 bonus marks udhar\n");
+														printf("\n\t\t\t Sach Batao! \n\t 1 bonus marks idhar \n \t 1 bonus marks udhar\n");
 													}
 													case 'D':
 													case 'd':
 													case 'Y':
 													case 'y':
-														printf("\nYour character is Altaf Hussain!\n");
-														printf("\nVote for Miss Samia Masood Awan  \nWarnaa bori tayyaar\n");
-														PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\altaf.wav"), NULL, SND_ASYNC);
+														printf("\n\t\t\t\tYour character is Altaf Hussain!\n");
+														printf("\n\t\t\tVote for Miss Samia Masood Awan  \n\t\t\tWarnaa bori tayyaar\n");
+														PlaySound(TEXT("altaf.wav"), NULL, SND_ASYNC);
 														system("pause");
 														exit(0);
 													}
 												default:
-													Bilawal(ch, count);
-
-													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
+													Altaf(ch, count);
 													break; // Q13
 												}
 											default: // Q12
-												Bilawal(ch, count);
-
-												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
+												Altaf(ch, count);
 												break;
 											}
 										default: // Q11
-											Bilawal(ch, count);
-
-											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
+											Altaf(ch, count);
 											break;
 										}
 									default: // Q10
-										Bilawal(ch, count);
-
-										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
+										Altaf(ch, count);
 										break;
 									}
 								default: // Q9
-									Bilawal(ch, count);
 									Altaf(ch, count);
-									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // Q8
-								Bilawal(ch, count);
 								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // Q7
-							Bilawal(ch, count);
 							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // Q6
-						Bilawal(ch, count);
 						Altaf(ch, count);
-						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // Q5
-					Bilawal(ch, count);
 					Altaf(ch, count);
-					imran_khan(ch, count);
-					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default: // Q4
-				Bilawal(ch, count);
 				Altaf(ch, count);
-				imran_khan(ch, count);
-				shahbaz(ch, count);
-				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // Q3
-			shahbaz(ch, count);
-			Bilawal(ch, count);
 			Altaf(ch, count);
-			imran_khan(ch, count);
-			sheikh_rasheed(ch, count);
 			break;
 		}
 	default: // Q2
 		sheikh_rasheed(ch, count);
-		Bilawal(ch, count);
-		Altaf(ch, count);
 		imran_khan(ch, count);
-		shahbaz(ch, count);
+
 		break;
 	}
 }
 void Benazir(char ch, int count)
 {
-	printf("\n\tQuestion no %d\n", count); // benazir Q1
-	printf("Is your character famous in Sindh?\n");
-	printf("\t Option: ");
+	printf("\n\t\t\t\tQuestion no %d\n", count); // benazir Q1
+	printf("\t\t\tIs your character famous in Sindh?\n");
+	printf("\t\t\t\t Option: ");
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -539,9 +767,11 @@ void Benazir(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d\n", count);
-		printf("Was this person associated with a prominent political family in Pakistan?\n");
-		printf("\t Option: ");
+	case 'N':
+	case 'n':
+		printf("\n\t\t\t\tQuestion no %d\n", count);
+		printf("\t\t\tWas this person associated with a prominent political family in Pakistan?\n");
+		printf("\t\t\t\t Option: ");
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
@@ -550,9 +780,12 @@ void Benazir(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d\n", count);
-			printf("Did she attend Harvard University for her education?\n");
-			printf("\t Option: ");
+		case 'N':
+
+		case 'n':
+			printf("\n\t\t\t\tQuestion no %d\n", count);
+			printf("\t\t\tDid she attend Harvard University and Oxford Uni for her education?\n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -561,9 +794,11 @@ void Benazir(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
-				printf("\n\tQuestion no %d\n", count);
-				printf("Was your character married?\n");
-				printf("\t Option: ");
+			case 'N':
+			case 'n':
+				printf("\n\t\t\t\tQuestion no %d\n", count);
+				printf("\t\t\tWas your character married?\n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -572,9 +807,11 @@ void Benazir(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
-					printf("\n\tQuestion no %d\n", count);
-					printf("Did her political career involve periods of exile?\n");
-					printf("\t Option: ");
+				case 'N':
+				case 'n':
+					printf("\n\t\t\t\tQuestion no %d\n", count);
+					printf("\t\t\tDid her political career involve periods of exile?\n");
+					printf("\t\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -583,9 +820,11 @@ void Benazir(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
-						printf("\n\tQuestion no %d\n", count);
-						printf("Was she the first woman to lead a Muslim-majority country?\n");
-						printf("\t Option: ");
+					case 'N':
+					case 'n':
+						printf("\n\t\t\t\tQuestion no %d\n", count);
+						printf("\t\t\tWas she the first woman to lead a Muslim-majority country?\n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -594,9 +833,11 @@ void Benazir(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
-							printf("\n\tQuestion no %d\n", count);
-							printf("Did this person serve as the Prime Minister of Pakistan??\n");
-							printf("\t Option: ");
+						case 'N':
+						case 'n':
+							printf("\n\t\t\t\tQuestion no %d\n", count);
+							printf("\t\t\tDid this person serve as the Prime Minister of Pakistan??\n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -605,9 +846,11 @@ void Benazir(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
-								printf("\n\tQuestion no %d\n", count);
-								printf("Was she known for her efforts in promoting women's rights in her country?\n");
-								printf("\t Option: ");
+							case 'N':
+							case 'n':
+								printf("\n\t\t\t\tQuestion no %d\n", count);
+								printf("\t\t\tWas she known for her efforts in promoting women's rights in her country?\n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -616,9 +859,11 @@ void Benazir(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
-									printf("\n\tQuestion no %d\n", count);
-									printf("Did she write an autobiography sharing her experiences in politics?\n");
-									printf("\t Option: ");
+								case 'N':
+								case 'n':
+									printf("\n\t\t\t\tQuestion no %d\n", count);
+									printf("\t\t\tDid she write an autobiography sharing her experiences in politics?\n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -627,9 +872,11 @@ void Benazir(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d\n", count);
-										printf("Did her life end tragically due to a political incident?\n");
-										printf("\t Option: ");
+									case 'N':
+									case 'n':
+										printf("\n\t\t\t\tQuestion no %d\n", count);
+										printf("\t\t\tDid her life end tragically due to a political incident?\n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -638,78 +885,61 @@ void Benazir(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
-											printf("\nYour character is the 1st women PM of Pakistan Benzair Bhutto!\n");
+										case 'N':
+										case 'n':
+											printf("\n\t\t\tYour character is the 1st women PM of Pakistan Benzair Bhutto!\n");
 											system("pause");
 											exit(0);
 										}
 									default: // benazir bhutto Q10
-										maryam(ch, count);
-										firdous(ch, count);
+										Benazir(ch, count);
 
 										break;
 									}
 								default: // // benazir bhutto Q9
-									maryam(ch, count);
-									firdous(ch, count);
-
-									break;
+									Benazir(ch, count);
 									break;
 								}
 							default: // benazir Q8
-								maryam(ch, count);
-								firdous(ch, count);
+								Benazir(ch, count);
 
-								break;
 								break;
 							}
 						default: // benazir Q7
-							maryam(ch, count);
-							firdous(ch, count);
-
-							break;
+							Benazir(ch, count);
 							break;
 						}
 					default: // benazir Q6
-						maryam(ch, count);
-						firdous(ch, count);
+						Benazir(ch, count);
 
-						break;
 						break;
 					}
 				default: // benazir Q5
-					maryam(ch, count);
-					firdous(ch, count);
+					Benazir(ch, count);
 
-					break;
 					break;
 				}
 			default: // benazir Q4
-				maryam(ch, count);
-				firdous(ch, count);
+				Benazir(ch, count);
 
-				break;
 				break;
 			}
 		default: // benazir Q3
-			maryam(ch, count);
-			firdous(ch, count);
+			Benazir(ch, count);
 
-			break;
 			break;
 		}
 	default: // benazir Q2
-		maryam(ch, count);
-		firdous(ch, count);
+		Benazir(ch, count);
 
-		break;
 		break;
 	}
 } // function end
 void Bilawal(char ch, int count)
 {
-	printf("\n\tQuestion no %d\n", count); // bilawal bhutto Q1
-	printf("Is your character alive?\n");
-	printf("\t Option: ");
+	printf("\n\t\t\t\tQuestion no %d\n", count); // bilawal bhutto Q1
+	printf("\t\t\tIs your character alive?\n");
+	printf("\t\t\t\t Option: ");
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -718,9 +948,9 @@ void Bilawal(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d\n", count);
-		printf("Is his father or mother famous politician?\n");
-		printf("\t Option: ");
+		printf("\n\t\t\t\tQuestion no %d\n", count);
+		printf("\t\t\tIs his father or mother famous politician?\n");
+		printf("\t\t\t\t Option: ");
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
@@ -729,9 +959,9 @@ void Bilawal(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d\n", count);
-			printf("Is your character clean-shaved?\n");
-			printf("\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d\n", count);
+			printf("\t\t\tIs your character clean-shaved?\n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -740,9 +970,9 @@ void Bilawal(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
-				printf("\n\tQuestion no %d\n", count);
-				printf("Is your character un-married?\n");
-				printf("\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d\n", count);
+				printf("\t\t\tIs your character un-married?\n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -751,9 +981,9 @@ void Bilawal(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
-					printf("\n\tQuestion no %d\n", count);
-					printf("Your character studied abroad?\n");
-					printf("\t Option: ");
+					printf("\n\t\t\t\tQuestion no %d\n", count);
+					printf("\t\t\tYour character studied abroad?\n");
+					printf("\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -762,9 +992,11 @@ void Bilawal(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
-						printf("\n\tQuestion no %d\n", count);
-						printf("Did your character made visa free for all Irani people?\n");
-						printf("\t Option: ");
+					case 'N':
+					case 'n':
+						printf("\n\t\t\t\tQuestion no %d\n", count);
+						printf("\t\t\tDid your character made visa free for all Irani people?\n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -773,9 +1005,11 @@ void Bilawal(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
-							printf("\n\tQuestion no %d\n", count);
-							printf("Does your politician holds higher position in party?\n");
-							printf("\t Option: ");
+						case 'N':
+						case 'n':
+							printf("\n\t\t\t\tQuestion no %d\n", count);
+							printf("\t\t\tDoes your politician holds higher position in party?\n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -784,9 +1018,11 @@ void Bilawal(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
-								printf("\n\tQuestion no %d\n", count);
-								printf("Was your politician a former prime minister/chief minister?\n");
-								printf("\t Option: ");
+							case 'N':
+							case 'n':
+								printf("\n\t\t\t\tQuestion no %d\n", count);
+								printf("\t\t\tWas your politician a former prime minister/chief minister?\n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -795,9 +1031,11 @@ void Bilawal(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
-									printf("\n\tQuestion no %d\n", count);
-									printf("Does his speech not make any sense right?\n");
-									printf("\t Option: ");
+								case 'N':
+								case 'n':
+									printf("\n\t\t\t\tQuestion no %d\n", count);
+									printf("\t\t\tDoes his speech not make any sense right?\n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -806,9 +1044,11 @@ void Bilawal(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d\n", count);
-										printf("Is he fluent in english??\n");
-										printf("\t Option: ");
+									case 'N':
+									case 'n':
+										printf("\n\t\t\t\tQuestion no %d\n", count);
+										printf("\t\t\tIs he fluent in english??\n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -817,9 +1057,9 @@ void Bilawal(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
-											printf("\n\tQuestion no %d\n", count);
-											printf("Does he have issue in gender pronounciation?\n");
-											printf("\t Option: ");
+											printf("\n\t\t\t\tQuestion no %d\n", count);
+											printf("\t\t\tDoes he have issue in gender pronounciation?\n");
+											printf("\t\t\t\t Option: ");
 											scanf(" %c", &ch);
 											count++;
 											switch (ch)
@@ -828,9 +1068,9 @@ void Bilawal(char ch, int count)
 											case 'y':
 											case 'D':
 											case 'd':
-												printf("\n\tQuestion no %d\n", count);
-												printf("Is he favorite of any other politician?\n");
-												printf("\t Option: ");
+												printf("\n\t\t\t\tQuestion no %d\n", count);
+												printf("\t\t\tIs he favorite of any other politician?\n");
+												printf("\t\t\t\t Option: ");
 												scanf(" %c", &ch);
 												count++;
 												switch (ch)
@@ -839,9 +1079,9 @@ void Bilawal(char ch, int count)
 												case 'y':
 												case 'D':
 												case 'd':
-													printf("\n\tQuestion no %d\n", count);
-													printf("Did he recently said a province KFC?\n");
-													printf("\t Option: ");
+													printf("\n\t\t\t\tQuestion no %d\n", count);
+													printf("\t\t\tDid he recently said a province KFC?\n");
+													printf("\t\t\t\t Option: ");
 													scanf(" %c", &ch);
 													count++;
 													switch (ch)
@@ -850,9 +1090,9 @@ void Bilawal(char ch, int count)
 													case 'y':
 													case 'D':
 													case 'd':
-														printf("\n\tQuestion no %d\n", count);
-														printf("Kya aap k politician ka bolne ka andaaz thora kasual he?\t\tkiya apki kanpe tang rahi hai\n");
-														printf("\t Option: ");
+														printf("\n\t\t\t\tQuestion no %d\n", count);
+														printf("\t\t\tKya aap k politician ka bolne ka andaaz thora kasual he?\tkiya apki kanpe tang rahi hai\n");
+														printf("\t\t\t\t Option: ");
 														scanf(" %c", &ch);
 														count++;
 														switch (ch)
@@ -861,9 +1101,11 @@ void Bilawal(char ch, int count)
 														case 'y':
 														case 'D':
 														case 'd':
-															printf("\n\tQuestion no %d\n", count);
-															printf("Is your politician likely to become Prime minister in future?\n");
-															printf("\t Option: ");
+														case 'N':
+														case 'n':
+															printf("\n\t\t\t\tQuestion no %d\n", count);
+															printf("\t\t\tIs your politician likely to become Prime minister in future?\n");
+															printf("\t\t\t\t Option: ");
 															scanf(" %c", &ch);
 															count++;
 															switch (ch)
@@ -872,9 +1114,11 @@ void Bilawal(char ch, int count)
 															case 'y':
 															case 'D':
 															case 'd':
-																printf("\n\tQuestion no %d\n", count);
-																printf("You know him because of (Barish huti hai tw pani ata hai)?\n");
-																printf("\t Option: ");
+															case 'N':
+															case 'n':
+																printf("\n\t\t\t\tQuestion no %d\n", count);
+																printf("\t\t\tYou know him because of (Barish huti hai tw pani ata hai)?\n");
+																printf("\t\t\t\t Option: ");
 																scanf(" %c", &ch);
 																count++;
 																switch (ch)
@@ -883,131 +1127,73 @@ void Bilawal(char ch, int count)
 																case 'y':
 																case 'D':
 																case 'd':
-																	printf("\nYour character is Bilawal Bhutto!\n");
-																	printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai\n");
-																	PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\bilawal.wav"), NULL, SND_ASYNC);
+																case 'N':
+																case 'n':
+																	printf("\n\t\t\t\tYour character is Bilawal Bhutto!\n");
+																	printf("\n\t\t\tTum to aik kanputli (statue) ho\n\t\t\ttumhari doren to PF hilaa raha hai\n");
+																	PlaySound(TEXT("bilawal.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
 																}
 															default: // bilawal bhutto Q16
 																Bilawal(ch, count);
-																Altaf(ch, count);
-																imran_khan(ch, count);
-																shahbaz(ch, count);
-																sheikh_rasheed(ch, count);
 																break;
 															}
 														default: // bilawal bhutto Q15
 															Bilawal(ch, count);
-															Altaf(ch, count);
-															imran_khan(ch, count);
-															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // bilawal bhutto Q14
 														Bilawal(ch, count);
-														Altaf(ch, count);
-														imran_khan(ch, count);
-														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default: // bilawal bhutto Q13
 													Bilawal(ch, count);
-													Altaf(ch, count);
-													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // bilawal bhutto Q12
 												Bilawal(ch, count);
-												Altaf(ch, count);
-												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // bilawal bhutto Q11
 											Bilawal(ch, count);
-											Altaf(ch, count);
-											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // bilawal bhutto Q10
 										Bilawal(ch, count);
-										Altaf(ch, count);
-										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // bilawal bhutto Q9
 									Bilawal(ch, count);
-									Altaf(ch, count);
-									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // bilawal bhutto Q8
 								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // bilawal bhutto Q7
 							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // bilawal bhutto Q6
 						Bilawal(ch, count);
-						Altaf(ch, count);
-						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // bilawal bhutto Q5
 					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
-					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default: // bilawal bhutto Q4
 				Bilawal(ch, count);
-				Altaf(ch, count);
-				imran_khan(ch, count);
-				shahbaz(ch, count);
-				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // bilawal bhutto Q3
-			sheikh_rasheed(ch, count);
-			shahbaz(ch, count);
 			Bilawal(ch, count);
-			Altaf(ch, count);
-			imran_khan(ch, count);
-			Altaf(ch, count);
 			break;
 		}
 	default: // bilawal bhutto Q2
 		Bilawal(ch, count);
-		Altaf(ch, count);
-		imran_khan(ch, count);
-		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
+
 		break;
 	}
 }
@@ -1015,9 +1201,9 @@ void Bilawal(char ch, int count)
 void firdous(char ch, int count)
 {
 
-	printf("\n\tQuestion no %d\n", count);
-	printf("Is she over 40 years ?\n");
-	printf("\t Option: "); // firdous ashiq Q1
+	printf("\n\t\t\t\tQuestion no %d\n", count);
+	printf("\t\t\tIs she over 40 years ?\n");
+	printf("\t\t\t\t Option: "); // firdous ashiq Q1
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -1026,9 +1212,9 @@ void firdous(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d\n", count);
-		printf("is she from sialkot district?\n");
-		printf("\t Option: "); // firdous ashiq Q2
+		printf("\n\t\t\t\tQuestion no %d\n", count);
+		printf("\t\t\tIs she from sialkot district?\n");
+		printf("\t\t\t\t Option: "); // firdous ashiq Q2
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
@@ -1037,9 +1223,9 @@ void firdous(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d\n", count);
-			printf("is she role model for many people?\n");
-			printf("\t Option: "); // firdous ashiq Q3
+			printf("\n\t\t\t\tQuestion no %d\n", count);
+			printf("\t\t\tIs she role model for many people?\n");
+			printf("\t\t\t\t Option: "); // firdous ashiq Q3
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -1048,9 +1234,9 @@ void firdous(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
-				printf("\n\tQuestion no %d\n", count);
-				printf("does she weear glasses?\n");
-				printf("\t Option: "); // firdous ashiq Q4
+				printf("\n\t\t\t\tQuestion no %d\n", count);
+				printf("\t\t\tDoes she weear glasses?\n");
+				printf("\t\t\t\t Option: "); // firdous ashiq Q4
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -1059,9 +1245,9 @@ void firdous(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
-					printf("\n\tQuestion no %d\n", count);
-					printf("is ur character multi talented?\n");
-					printf("\t Option: "); // firdous ashiq Q5
+					printf("\n\t\t\t\tQuestion no %d\n", count);
+					printf("\t\t\tIs ur character multi talented?\n");
+					printf("\t\t\t\t Option: "); // firdous ashiq Q5
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -1070,9 +1256,9 @@ void firdous(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
-						printf("\n\tQuestion no %d\n", count);
-						printf("she is also invovled in boxing?\n");
-						printf("\t Option: "); // firdous ashiq Q6
+						printf("\n\t\t\t\tQuestion no %d\n", count);
+						printf("\t\t\tshe is also invovled in boxing?\n");
+						printf("\t\t\t\t Option: "); // firdous ashiq Q6
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -1081,9 +1267,9 @@ void firdous(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
-							printf("\n\tQuestion no %d\n", count);
-							printf("Does she like to slap people alot?\n");
-							printf("\t Option: "); // firdous ashiq Q7
+							printf("\n\t\t\t\tQuestion no %d\n", count);
+							printf("\t\t\tDoes she like to slap people alot?\n");
+							printf("\t\t\t\t Option: "); // firdous ashiq Q7
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -1092,9 +1278,9 @@ void firdous(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
-								printf("\n\tQuestion no %d\n", count);
-								printf("does she likes to play cricket?\n");
-								printf("\t Option: "); // firdous ashiq Q8
+								printf("\n\t\t\t\tQuestion no %d\n", count);
+								printf("\t\t\tDoes she likes to play cricket?\n");
+								printf("\t\t\t\t Option: "); // firdous ashiq Q8
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -1103,9 +1289,9 @@ void firdous(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
-									printf("\n\tQuestion no %d\n", count);
-									printf("did she drove a tractor once in her life?\n");
-									printf("\t Option: "); // firdous ashiq Q9
+									printf("\n\t\t\t\tQuestion no %d\n", count);
+									printf("\t\t\tDid she drove a tractor once in her life?\n");
+									printf("\t\t\t\t Option: "); // firdous ashiq Q9
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -1114,9 +1300,9 @@ void firdous(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d\n", count);
-										printf("did she gaves rules & regulations on EID(no pappiyan and jhappyan)?\n");
-										printf("\t Option: "); // firdous ashiq Q10
+										printf("\n\t\t\t\tQuestion no %d\n", count);
+										printf("\t\t\tDid she gaves rules & regulations on EID(no pappiyan and jhappyan)?\n");
+										printf("\t\t\t\t Option: "); // firdous ashiq Q10
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -1125,65 +1311,58 @@ void firdous(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
-											printf("\nYour character is firdous ashiq awan!\n");
-											printf("\nPolitics mujhe ati nhi \nBoxing meri jaati nhi\n");
-											PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\Firdos.wav"), NULL, SND_ASYNC);
+											printf("\n\t\t\t\tYour character is firdous ashiq awan!\n");
+											printf("\n\t\t\tPolitics mujhe ati nhi \n\t\t\tBoxing meri jaati nhi\n");
+											PlaySound(TEXT("Firdos.wav"), NULL, SND_ASYNC);
 											system("pause");
 											exit(0);
 										}
 									default: // firdous ashiq Q10
 										maryam(ch, count);
-										Benazir(ch, count);
 										firdous(ch, count);
-										break;
+
 										break;
 									}
 
 								default: // firdous ashiq Q9
 									maryam(ch, count);
-									Benazir(ch, count);
 									firdous(ch, count);
 									break;
 								}
 
 							default: // firdous ashiq Q8
 								maryam(ch, count);
-								Benazir(ch, count);
 								firdous(ch, count);
 								break;
 							}
 
 						default: // firdous ashiq Q7
 							maryam(ch, count);
-							Benazir(ch, count);
 							firdous(ch, count);
 							break;
 						}
 
 					default: // firdous ashiq Q6
 						maryam(ch, count);
-						Benazir(ch, count);
 						firdous(ch, count);
 						break;
 					}
 				default: // firdous ashiq Q5
 					maryam(ch, count);
-					Benazir(ch, count);
 					firdous(ch, count);
 					break;
 				}
 
 			default: // firdous ashiq Q4
 				maryam(ch, count);
-				Benazir(ch, count);
 				firdous(ch, count);
 				break;
 			}
 
 		default: // firdous ashiq Q3
-			printf("\n\tQuestion no %d\n", count);
-			printf("Is your character alive?     \n");
-			printf("\t Option: "); // firdous ashiq Q7
+			printf("\n\t\t\t\tQuestion no %d\n", count);
+			printf("\t\t\tIs your character alive?     \n");
+			printf("\t\t\t\t Option: "); // firdous ashiq Q7
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -1193,12 +1372,10 @@ void firdous(char ch, int count)
 			case 'D':
 			case 'd':
 				maryam(ch, count);
-				Benazir(ch, count);
-				firdous(ch, count);
+
 			default:
 				Benazir(ch, count);
-				maryam(ch, count);
-				firdous(ch, count);
+
 				break;
 			}
 			break;
@@ -1207,15 +1384,14 @@ void firdous(char ch, int count)
 	default: // firdous ashiq Q2
 		maryam(ch, count);
 		Benazir(ch, count);
-		firdous(ch, count);
 		break;
 	}
 }
 void imran_khan(char ch, int count)
 {
-	printf("\n\tQuestion no %d\n", count); // imran khan Q1
-	printf("Is ur character over 50 years?\n");
-	printf("\t Option: ");
+	printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q1
+	printf("\t\t\tIs ur character over 50 years?\n");
+	printf("\t\t\t\t Option: ");
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -1224,9 +1400,9 @@ void imran_khan(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d\n", count); // imran khan Q2
-		printf("Is he healthy and fit?\n");
-		printf("\t Option: ");
+		printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q2
+		printf("\t\t\tIs he healthy and fit?\n");
+		printf("\t\t\t\t Option: ");
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
@@ -1235,9 +1411,9 @@ void imran_khan(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d\n", count); // imran khan Q3
-			printf("Is charachter a bold man?\n");
-			printf("\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q3
+			printf("\t\t\tIs charachter a bold man?\n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -1246,9 +1422,9 @@ void imran_khan(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
-				printf("\n\tQuestion no %d\n", count); // imran khan Q4
-				printf("does your character often wear national dress?\n");
-				printf("\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q4
+				printf("\t\t\tDoes your character often wear national dress?\n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -1257,9 +1433,9 @@ void imran_khan(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
-					printf("\n\tQuestion no %d\n", count); // imran khan Q5
-					printf("Do your character have 3 or more wifes?\n");
-					printf("\t Option: ");
+					printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q5
+					printf("\t\t\tDo your character have 3 or more wifes?\n");
+					printf("\t\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -1268,9 +1444,10 @@ void imran_khan(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
-						printf("\n\tQuestion no %d\n", count); // imran khan Q6
-						printf("Do you think ur character is loyal?\n");
-						printf("\t Option: ");
+
+						printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q6
+						printf("\t\t\tDo you think ur character is loyal?\n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -1279,9 +1456,11 @@ void imran_khan(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
-							printf("\n\tQuestion no %d\n", count); // imran khan Q7
-							printf("kiya ap ghabra to nhi rahe?\n");
-							printf("\t Option: ");
+						case 'n':
+						case 'N':
+							printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q7
+							printf("\t\t\tkiya ap ghabra to nhi rahe?\n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -1293,10 +1472,10 @@ void imran_khan(char ch, int count)
 							case 'n':
 							case 'N':
 								printf("\n");
-								printf("\tapne gabrana nhi hai.\n");
-								printf("\n\tQuestion no %d\n", count); // imran khan Q8
-								printf("\nIs ur character patriotic\n");
-								printf("\t Option: ");
+								printf("\t\t\t\tapne gabrana nhi hai.\n");
+								printf("\n\t\t\tQuestion no %d\n", count); // imran khan Q8
+								printf("\n\t\t\t\tIs ur character patriotic\n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -1305,9 +1484,11 @@ void imran_khan(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
-									printf("\n\tQuestion no %d\n", count); // imran khan Q9
-									printf("does your character started a charity project?\n");
-									printf("\t Option: ");
+								case 'n':
+								case 'N':
+									printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q9
+									printf("\t\t\tDoes your character started a charity project?\n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -1316,9 +1497,9 @@ void imran_khan(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d\n", count); // imran khan Q10
-										printf("Does your character have betrayers?\n");
-										printf("\t Option: ");
+										printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q10
+										printf("\t\t\tDoes your character have betrayers?\n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -1327,9 +1508,9 @@ void imran_khan(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
-											printf("\n\tQuestion no %d\n", count); // imran khan Q11
-											printf("Is your chracter a former cricketer?\n");
-											printf("\t Option: ");
+											printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q11
+											printf("\t\t\tIs your chracter a former cricketer?\n");
+											printf("\t\t\t\t Option: ");
 											scanf(" %c", &ch);
 											count++;
 											switch (ch)
@@ -1338,9 +1519,9 @@ void imran_khan(char ch, int count)
 											case 'y':
 											case 'D':
 											case 'd':
-												printf("\n\tQuestion no %d\n", count); // imran khan Q12
-												printf("did ur politician got shot on leg?\n");
-												printf("\t Option: ");
+												printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q12
+												printf("\t\t\tDid ur politician got shot on leg?\n");
+												printf("\t\t\t\t Option: ");
 												scanf(" %c", &ch);
 												count++;
 												switch (ch)
@@ -1349,9 +1530,9 @@ void imran_khan(char ch, int count)
 												case 'y':
 												case 'D':
 												case 'd':
-													printf("\n\tQuestion no %d\n", count); // imran khan Q13
-													printf("kiya ap ghabra to nhi rahe?\n");
-													printf("\t Option: ");
+													printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q13
+													printf("\t\t\tkiya ap ghabra to nhi rahe?\n");
+													printf("\t\t\t\t Option: ");
 													scanf(" %c", &ch);
 													count++;
 													switch (ch)
@@ -1363,10 +1544,10 @@ void imran_khan(char ch, int count)
 													case 'n':
 													case 'N':
 														printf("\n");
-														printf("\n\tapne gabrana nhi hai\n");
-														printf("\n\tQuestion no %d\n", count); // imran khan Q14
-														printf("Is your character famous for saying Absolutely not.\n");
-														printf("\t Option: ");
+														printf("\n\t\t\t\tapne gabrana nhi hai\n");
+														printf("\n\t\t\tQuestion no %d\n", count); // imran khan Q14
+														printf("\t\t\tIs your character famous for saying Absolutely not.\n");
+														printf("\t\t\t\t Option: ");
 														scanf(" %c", &ch);
 														count++;
 														switch (ch)
@@ -1375,10 +1556,12 @@ void imran_khan(char ch, int count)
 														case 'y':
 														case 'D':
 														case 'd':
-														
-															printf("\n\tQuestion no %d\n", count); // imran khan Q15
-															printf("Did he fell from stage?\n");
-															printf("\t Option: ");
+														case 'n':
+														case 'N':
+
+															printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q15
+															printf("\t\t\tDid he fell from stage?\n");
+															printf("\t\t\t\t Option: ");
 															scanf(" %c", &ch);
 															count++;
 															switch (ch)
@@ -1389,9 +1572,9 @@ void imran_khan(char ch, int count)
 															case 'd':
 															case 'n':
 															case 'N':
-																printf("\n\tQuestion no %d\n", count); // imran khan Q16
-																printf("kya tabdeeli aa chuki he?\n");
-																printf("\t Option: ");
+																printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q16
+																printf("\t\t\tkya tabdeeli aa chuki he?\n");
+																printf("\t\t\t\t Option: ");
 																scanf(" %c", &ch);
 																count++;
 																switch (ch)
@@ -1400,138 +1583,87 @@ void imran_khan(char ch, int count)
 																case 'y':
 																case 'D':
 																case 'd':
-																	printf("You are thinking about imran khan!\n");
-																	printf("\n\tHame to pf ne loota\n\tfit mai kahan dam tha\n\tGPA bhi wahan giri\n\tjahan AP mai number kam thay\n");
-																	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\imran.wav"), NULL, SND_ASYNC);
+																case 'N':
+																case 'n':
+																	printf("\t\t\t\tYou are thinking about imran khan!\n");
+																	printf("\n\t\t\tHame to pf ne loota\n\t\t\tfit mai kahan dam tha\n\t\t\tGPA bhi wahan giri\n\t\t\tjahan AP mai number kam thay\n");
+																	PlaySound(TEXT("imran.wav"), NULL, SND_ASYNC);
 																	system("pause");
 																	exit(0);
 																}
 															default: // imran khan Q16
-																Bilawal(ch, count);
-																Altaf(ch, count);
 																imran_khan(ch, count);
-																shahbaz(ch, count);
-																sheikh_rasheed(ch, count);
 																break;
 															}
 														default: // imran khan Q15
-															Bilawal(ch, count);
-															Altaf(ch, count);
 															imran_khan(ch, count);
-															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // imran khan Q14
-														Bilawal(ch, count);
-														Altaf(ch, count);
 														imran_khan(ch, count);
-														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default: // imran khan Q13
-													Bilawal(ch, count);
-													Altaf(ch, count);
 													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // imran khan Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
 												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // imran khan Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
 											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // imran khan Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
 										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // imran khan Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
 									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // imran khan Q8
-								Bilawal(ch, count);
-								Altaf(ch, count);
 								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // imran khan Q7
-							Bilawal(ch, count);
-							Altaf(ch, count);
 							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // imran khan Q6
-						Bilawal(ch, count);
-						Altaf(ch, count);
 						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // imran khan Q5
-					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
-					shahbaz(ch, count);
 					sheikh_rasheed(ch, count);
+					shahbaz(ch, count);
+					imran_khan(ch, count);
 					break;
 				}
 			default: // imran khan Q4
 				shahbaz(ch, count);
-				Bilawal(ch, count);
-				Altaf(ch, count);
 				imran_khan(ch, count);
-				sheikh_rasheed(ch, count);
+
 				break;
 			}
 		default: // imran khan Q3
-			Bilawal(ch, count);
+
 			Altaf(ch, count);
-			imran_khan(ch, count);
-			shahbaz(ch, count);
 			sheikh_rasheed(ch, count);
 			break;
 		}
 	default: // imran khan Q2
 		Bilawal(ch, count);
-		Altaf(ch, count);
 		imran_khan(ch, count);
-		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
 		break;
 	}
 } // imran khan End
 void shahbaz(char ch, int count)
 {
-	printf("\n\tQuestion no %d", count);
-	printf("\nIs he below 80 years?  \n"); // show Q1
-	printf("\t Option: ");
+	printf("\n\t\t\t\tQuestion no %d", count);
+	printf("\n\t\t\tIs he below 80 years?  \n"); // show Q1
+	printf("\t\t\t\t Option: ");
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -1540,9 +1672,9 @@ void shahbaz(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d", count); // show Q2
-		printf("\nDoes ur character often incorporates his humor with his speech?  \n");
-		printf("\t Option: ");
+		printf("\n\t\t\t\tQuestion no %d", count); // show Q2
+		printf("\n\t\t\tDoes ur character often incorporates his humor with his speech?  \n");
+		printf("\t\t\t\t Option: ");
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
@@ -1551,9 +1683,9 @@ void shahbaz(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d", count); // show Q3
-			printf("\nDoes he likes to sing?   \n");
-			printf("\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d", count); // show Q3
+			printf("\n\t\t\tDoes he likes to sing?   \n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -1564,9 +1696,9 @@ void shahbaz(char ch, int count)
 			case 'd':
 			case 'N':
 			case 'n':
-				printf("\n\tQuestion no %d", count); // show Q4
-				printf("\nDid he started a scheme for students?   \n");
-				printf("\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d", count); // show Q4
+				printf("\n\t\t\tDid he started a scheme for students?   \n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -1577,9 +1709,9 @@ void shahbaz(char ch, int count)
 				case 'd':
 				case 'N':
 				case 'n':
-					printf("\n\tQuestion no %d", count); // show Q5
-					printf("\nDid he completed launch project?   \n");
-					printf("\t Option: ");
+					printf("\n\t\t\t\tQuestion no %d", count); // show Q5
+					printf("\n\t\t\tDid he completed launch project?   \n");
+					printf("\t\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -1590,9 +1722,9 @@ void shahbaz(char ch, int count)
 					case 'd':
 					case 'N':
 					case 'n':
-						printf("\n\tQuestion no %d", count); // show Q6
-						printf("\nis your character jazbaati?   \n");
-						printf("\t Option: ");
+						printf("\n\t\t\t\tQuestion no %d", count); // show Q6
+						printf("\n\t\t\tis your character jazbaati?   \n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -1603,9 +1735,9 @@ void shahbaz(char ch, int count)
 						case 'd':
 						case 'N':
 						case 'n':
-							printf("\n\tQuestion no %d", count); // show Q7
-							printf("\nis his wife alive?   \n");
-							printf("\t Option: ");
+							printf("\n\t\t\t\tQuestion no %d", count); // show Q7
+							printf("\n\t\t\tis his wife alive?   \n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -1616,9 +1748,9 @@ void shahbaz(char ch, int count)
 							case 'd':
 							case 'N':
 							case 'n':
-								printf("\n\tQuestion no %d", count); // show Q8
-								printf("\nDoes he complete the Sunnah of 4 wives?   \n");
-								printf("\t Option: ");
+								printf("\n\t\t\t\tQuestion no %d", count); // show Q8
+								printf("\n\t\t\tDoes he complete the Sunnah of 4 wives?   \n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -1629,9 +1761,9 @@ void shahbaz(char ch, int count)
 								case 'd':
 								case 'N':
 								case 'n':
-									printf("\n\tQuestion no %d", count); // show Q9
-									printf("\nWear sun glasses?    \n");
-									printf("\t Option: ");
+									printf("\n\t\t\t\tQuestion no %d", count); // show Q9
+									printf("\n\t\t\tWear sun glasses?    \n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -1640,9 +1772,9 @@ void shahbaz(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d", count); // show Q10
-										printf("\nIs he liked by people?     \n");
-										printf("\t Option: ");
+										printf("\n\t\t\t\tQuestion no %d", count); // show Q10
+										printf("\n\t\t\tIs he liked by people?     \n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -1653,9 +1785,9 @@ void shahbaz(char ch, int count)
 										case 'd':
 										case 'N':
 										case 'n':
-											printf("\n\tQuestion no %d", count); // show Q11
-											printf("\nDid your politcian Wear Safari Suit?    \n");
-											printf("\t Option: ");
+											printf("\n\t\t\t\tQuestion no %d", count); // show Q11
+											printf("\n\t\t\tDid your politcian Wear Safari Suit?    \n");
+											printf("\t\t\t\t Option: ");
 											scanf(" %c", &ch);
 											count++;
 											switch (ch)
@@ -1666,9 +1798,9 @@ void shahbaz(char ch, int count)
 											case 'd':
 											case 'N':
 											case 'n':
-												printf("\n\tQuestion no %d", count); // show Q12
-												printf("\nIs his son carbon copy of him?    \n");
-												printf("\t Option: ");
+												printf("\n\t\t\t\tQuestion no %d", count); // show Q12
+												printf("\n\t\t\tIs his son carbon copy of him?    \n");
+												printf("\t\t\t\t Option: ");
 												scanf(" %c", &ch);
 												count++;
 												switch (ch)
@@ -1679,9 +1811,9 @@ void shahbaz(char ch, int count)
 												case 'd':
 												case 'N':
 												case 'n':
-													printf("\n\tQuestion no %d", count); // show Q13
-													printf("\n Does he visits his relative in abroad hospital?     \n");
-													printf("\t Option: ");
+													printf("\n\t\t\t\tQuestion no %d", count); // show Q13
+													printf("\n\t\t\t Does he visits his relative in abroad hospital?     \n");
+													printf("\t\t\t\t Option: ");
 													scanf(" %c", &ch);
 													count++;
 													switch (ch)
@@ -1692,9 +1824,9 @@ void shahbaz(char ch, int count)
 													case 'd':
 													case 'N':
 													case 'n':
-														printf("\n\tQuestion no %d", count); // show Q14
-														printf("\nDoes your poltitican had a rumour of cherry blossom?     \n");
-														printf("\t Option: ");
+														printf("\n\t\t\t\tQuestion no %d", count); // show Q14
+														printf("\n\t\t\tDoes your poltitican had a rumour of cherry blossom?     \n");
+														printf("\t\t\t\t Option: ");
 														scanf(" %c", &ch);
 														count++;
 														switch (ch)
@@ -1705,9 +1837,9 @@ void shahbaz(char ch, int count)
 														case 'd':
 														case 'N':
 														case 'n':
-															printf("\n\tQuestion no %d", count); // show Q15
-															printf("\noes ur character said beggars Can't be choosers? \t\t(the 1 who ask for bonus marks can't be programmers)  \n");
-															printf("\t Option: ");
+															printf("\n\t\t\t\tQuestion no %d", count); // show Q15
+															printf("\n\t\t\tDoes ur character said beggars Can't be choosers? \t\t(the 1 who ask for bonus marks can't be programmers)  \n");
+															printf("\t\t\t\t Option: ");
 															scanf(" %c", &ch);
 															count++;
 															switch (ch)
@@ -1716,130 +1848,77 @@ void shahbaz(char ch, int count)
 															case 'y':
 															case 'D':
 															case 'd':
-																printf("\nYour character is Shahbaz Sharif!\n");
-																printf("\n Mei Programming Prhne nhi aya \nlekin CS k lye Majboori hei\n");
-																PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\Shahbaz.wav"), NULL, SND_ASYNC);
+																printf("\n\t\t\tYour character is Shahbaz Sharif!\n");
+																printf("\n\t\t\t Mei Programming Prhne nhi aya \n\t\t\tlekin CS k lye Majboori hei\n");
+																PlaySound(TEXT("Shahbaz.wav"), NULL, SND_ASYNC);
 																system("pause");
 																exit(0);
 															}
 														default:
-															Bilawal(ch, count);
-															Altaf(ch, count);
-															imran_khan(ch, count);
 															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // Q14
-														Bilawal(ch, count);
-														Altaf(ch, count);
-														imran_khan(ch, count);
 														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default:
-													Bilawal(ch, count);
-													Altaf(ch, count);
-													imran_khan(ch, count);
 													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break; // Q13
 												}
 											default: // Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
-												imran_khan(ch, count);
 												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
-											imran_khan(ch, count);
 											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
-										imran_khan(ch, count);
 										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
-									imran_khan(ch, count);
 									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // Q08
-								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
 								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // Q07
-							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
 							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // Q06
-						Bilawal(ch, count);
-						Altaf(ch, count);
-						imran_khan(ch, count);
 						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // Q05
-					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
 					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default: // Q04
-				Bilawal(ch, count);
-				Altaf(ch, count);
-				imran_khan(ch, count);
 				shahbaz(ch, count);
-				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // Q03
-			Bilawal(ch, count);
-			Altaf(ch, count);
+			sheikh_rasheed(ch, count);
 			imran_khan(ch, count);
 			shahbaz(ch, count);
-			sheikh_rasheed(ch, count);
+
 			break;
 		}
 	default: // Q02
-		Altaf(ch, count);
-		Bilawal(ch, count);
-		imran_khan(ch, count);
 		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
 		break;
 	}
 } // shahbaz End
 void sheikh_rasheed(char ch, int count)
 {
-	printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q1
-	printf("Is your character from kashmiri family?\n");
-	printf("\t Option: ");
+	printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q1
+	printf("\t\t\tIs your character from kashmiri family?\n");
+	printf("\t\t\t\t Option: ");
 	scanf(" %c", &ch);
 	count++;
 	switch (ch)
@@ -1848,20 +1927,22 @@ void sheikh_rasheed(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
-		printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q2
-		printf("Does Your character looks old?\n");
-		printf("\t Option: ");
+		printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q2
+		printf("\t\t\tDoes Your character looks old?\n");
+		printf("\t\t\t\t Option: ");
 		scanf(" %c", &ch);
 		count++;
 		switch (ch)
 		{
+		case 'Y':
+		case 'y':
 		case 'N':
 		case 'n':
 		case 'D':
 		case 'd':
-			printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q3
-			printf("Is charachter a bold(confident) man?\n");
-			printf("\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q3
+			printf("\t\t\tIs charachter a bold(confident) man?\n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
@@ -1870,9 +1951,9 @@ void sheikh_rasheed(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
-				printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q4
-				printf("Is charachter fat?\n");
-				printf("\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q4
+				printf("\t\t\tIs charachter fat?\n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -1881,9 +1962,9 @@ void sheikh_rasheed(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
-					printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q5
-					printf("Is he Married?\n");
-					printf("\t Option: ");
+					printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q5
+					printf("\t\t\tIs he Married?\n");
+					printf("\t\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -1892,9 +1973,9 @@ void sheikh_rasheed(char ch, int count)
 					case 'n':
 					case 'D':
 					case 'd':
-						printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q6
-						printf("Does he smokes?\n");
-						printf("\t Option: ");
+						printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q6
+						printf("\t\t\tDoes he smokes?\n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -1903,9 +1984,9 @@ void sheikh_rasheed(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
-							printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q7
-							printf("Does ur character gives sigma vibes?\n");
-							printf("\t Option: ");
+							printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q7
+							printf("\t\t\tDoes ur character gives sigma vibes?\n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -1914,9 +1995,9 @@ void sheikh_rasheed(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
-								printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q8
-								printf("Does ur character have a moustache?\n");
-								printf("\t Option: ");
+								printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q8
+								printf("\t\t\tDoes ur character have a moustache?\n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -1925,9 +2006,9 @@ void sheikh_rasheed(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
-									printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q9
-									printf("Does your character owns a laal mansion?\n");
-									printf("\t Option: ");
+									printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q9
+									printf("\t\t\tDoes your character owns a laal mansion?\n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -1936,9 +2017,9 @@ void sheikh_rasheed(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q10
-										printf("Is he currently the interior minister of Pakistan?\n");
-										printf("\t Option: ");
+										printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q10
+										printf("\t\t\tIs he currently the interior minister of Pakistan?\n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -1947,9 +2028,9 @@ void sheikh_rasheed(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
-											printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q11
-											printf("Is your character linked with trains?\n");
-											printf("\t Option: ");
+											printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q11
+											printf("\t\t\tIs your character linked with trains?\n");
+											printf("\t\t\t\t Option: ");
 											scanf(" %c", &ch);
 											count++;
 											switch (ch)
@@ -1958,9 +2039,9 @@ void sheikh_rasheed(char ch, int count)
 											case 'y':
 											case 'D':
 											case 'd':
-												printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q12
-												printf("Does your character like to roast people?\n");
-												printf("\t Option: ");
+												printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q12
+												printf("\t\t\tDoes your character like to roast people?\n");
+												printf("\t\t\t\t Option: ");
 												scanf(" %c", &ch);
 												count++;
 												switch (ch)
@@ -1969,9 +2050,9 @@ void sheikh_rasheed(char ch, int count)
 												case 'y':
 												case 'D':
 												case 'd':
-													printf("\n\tQuestion no %d\n", count); // sheikh rasheed Q13
-													printf("He always talk about his favourite politician?\n");
-													printf("\t Option: ");
+													printf("\n\t\t\t\tQuestion no %d\n", count); // sheikh rasheed Q13
+													printf("\t\t\tHe always talk about his favourite politician?\n");
+													printf("\t\t\t\t Option: ");
 													scanf(" %c", &ch);
 													count++;
 													switch (ch)
@@ -1980,108 +2061,78 @@ void sheikh_rasheed(char ch, int count)
 													case 'y':
 													case 'D':
 													case 'd':
-														printf("\nYou are thinking about sheikh rasheed\n");
-														printf("\n\tSheikhu Didnt choose thug life ,\n\t thug life choose him\n");
-														PlaySound(TEXT("C:\Users\\HAROON TRADERS\\Documents\\practice\\Sheikh.wav"), NULL, SND_ASYNC);
+														printf("\n\t\t\t\tYou are thinking about sheikh rasheed\n");
+														printf("\n\t\t\tSheikhu Didnt choose thug life ,\n\t\t\t thug life choose him\n");
+														PlaySound(TEXT("gSheikh.wav"), NULL, SND_ASYNC);
 														system("pause");
 														exit(0);
 													default:
 														break;
 													}
 												default: // sheikh rasheed Q13
-													Bilawal(ch, count);
-													Altaf(ch, count);
 													imran_khan(ch, count);
-													shahbaz(ch, count);
 													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // sheikh rasheed Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
 												imran_khan(ch, count);
-												shahbaz(ch, count);
 												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // sheikh rasheed Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
 											imran_khan(ch, count);
-											shahbaz(ch, count);
 											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // sheikh rasheed Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
 										imran_khan(ch, count);
-										shahbaz(ch, count);
 										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // sheikh rasheed Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
 									imran_khan(ch, count);
-									shahbaz(ch, count);
 									sheikh_rasheed(ch, count);
+
 									break;
 								}
 							default: // sheikh rasheed Q8
-								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
 								sheikh_rasheed(ch, count);
+
 								break;
 							}
 						default: // sheikh rasheed Q7
-							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
 							sheikh_rasheed(ch, count);
+							imran_khan(ch, count);
 							break;
 						}
 					default: // sheikh rasheed Q6
-						Bilawal(ch, count);
-						Altaf(ch, count);
 						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // sheikh rasheed Q5
 					imran_khan(ch, count);
-					Bilawal(ch, count);
-					Altaf(ch, count);
 					shahbaz(ch, count);
 					sheikh_rasheed(ch, count);
+
 					break;
 				}
 			default: // sheikh rasheed Q4
 				shahbaz(ch, count);
-				Bilawal(ch, count);
-				Altaf(ch, count);
 				imran_khan(ch, count);
+
 				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // sheikh rasheed Q3
 			shahbaz(ch, count);
 			imran_khan(ch, count);
-			Bilawal(ch, count);
-			Altaf(ch, count);
 			sheikh_rasheed(ch, count);
-			imran_khan(ch, count);
+
 			break;
 		}
 	default: // sheikh rasheed Q2
 		imran_khan(ch, count);
 		shahbaz(ch, count);
-		Bilawal(ch, count);
-		Altaf(ch, count);
 		sheikh_rasheed(ch, count);
 		break;
 	}
