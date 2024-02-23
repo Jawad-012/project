@@ -1,14 +1,14 @@
 <h1 align="center" id="title">Guessing The Character</h1>
 
-<p align="center"><img src="https://socialify.git.ci/daacyberian/Guess-The-Personality/image?description=1&amp;descriptionEditable=Team%20Project%20....%20Team%20Member%20Names%20%3A%20%0A1)%20Dawood%202)%20Jawad%203)Usman%20&amp;font=Inter&amp;forks=1&amp;language=1&amp;logo=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRFNnrMxNb3M_oS-3NUd5byfIYPCVVhJsS4ZQ%26usqp%3DCAU&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/Jawad-012/project/image?description=1&forks=1&language=1&logo=https%3A%2F%2Fa.silvergames.com%2Fj%2Fb%2Fakinator.jpg&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Light" alt="project-image"></p>
 
 <p>This game is inspired by the game Akinator. In this game the program will provide questions to the user related to politicians... Our game guesses the famous politicians of "The Islamic Republic of Pakistan". he player must be matured enough to play the game and must not be offended&nbsp;in&nbsp;any&nbsp;way.<p/> 
 
 
-<h2>🔎 Preview</h2>
+<h2>🔎 Project Preview</h2>
 
 
-<img src="https://i.imgur.com/WwOLA3Y.jpg" alt="Image Description">
+<img src="https://imgur.com/K1keM7z.jpg" alt="Image Description">
 
 <h1 align="center" id="title">Disclaimer</h1>
 <p>The game is provided "as is" without any warranty or guarantee of accuracy, completeness, or fitness for a particular purpose...</p>
@@ -104,4 +104,4 @@ politicians of Pakistan.</li>
 <p>
 <h2>💖Like my work?</h2>
 
-This project needs a ⭐ from you. Don't forget to leave a star ⭐
+This project needs a ⭐ from you. Don't forget to leave a star ⭐
